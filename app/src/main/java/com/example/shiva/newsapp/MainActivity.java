@@ -19,7 +19,7 @@ import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
 
-    String API_KEY = "6c7587aa89d743f2842dc3db034f363b";
+    String API_KEY = BuildConfig.API_KEY;
     String NEWS_SOURCE = "the-hindu";
     ListView listNews;
     ProgressBar loader;
